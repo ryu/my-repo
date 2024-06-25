@@ -1,3 +1,3 @@
 # my-repo
 
-Github Action test.
+Github Action test repository.
