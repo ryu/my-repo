@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [first]
     steps:
-      - run: sleeps 10 && echo "Second job"
+      - run: sleep 10 && echo "Second job"
   third:
     runs-on: ubuntu-latest
     needs: [second]
